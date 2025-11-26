@@ -1,0 +1,35 @@
+{
+    "map": "backrooms",
+    "mapSrc": "../assets/maps/backrooms.png",
+    "sprite": [
+        {
+            "name": "entity",
+            "src": "../assets/sprites/entity.png",
+            "height": 0.5,
+            "width": 0.15,
+            "x": 0.15,
+            "y": 0.25
+        }
+    ],
+    "items": [
+        {
+            "name": "golden apple",
+            "src": "../assets/items/apple.png",
+            "width": 0.1,
+            "height": 0.1,
+            "x": 0.87,
+            "y": 0.87
+        }
+    ],
+    "exits": [
+        {
+            "direction": "north",
+            "location": "loz",
+            "x": 0.5,
+            "y": 0,
+            "width": 0.066,
+            "height": 0.17,
+            "strength": 0
+        }
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "map": "terraria",
+    "mapSrc": "../assets/maps/terraria.png",
+    "sprite": [],
+    "items": [
+        {
+            "name": "sword",
+            "src": "../assets/items/sword.png",
+            "width": 0.1,
+            "height": 0.1,
+            "x": 0.87,
+            "y": 0.87
+        }
+    ],
+    "exits": [
+        {
+            "direction": "north",
+            "location": "bridge",
+            "x": 0.20,
+            "y": 0,
+            "width": 0.25,
+            "height": 0.15,
+            "strength": 0
+        }
+    ]
+}

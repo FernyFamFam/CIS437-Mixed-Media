@@ -1,0 +1,17 @@
+{
+    "map": "gym",
+    "mapSrc": "../assets/maps/gym.png",
+    "sprite": [],
+    "items": [],
+    "exits": [
+        {
+            "direction": "east",
+            "location": "start",
+            "x": 0.95,
+            "y": 0.5,
+            "width": 0.05,
+            "height": 0.15,
+            "strength": 0
+        }
+    ]
+}

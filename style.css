@@ -1,0 +1,36 @@
+/* reset any paddings and margins within any browser*/
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+/* set attributes of body*/
+body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+/* set attributes of canvas ("game screen")*/
+canvas {
+    background-color: white;
+    width: 100vw;
+    height: 100vh;
+}
+
+#buttons {
+    padding: 0;
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+}
+
+#saveButton, #resetButton {
+    cursor: pointer;
+    user-select: none;
+    -webkit-user-drag: none;
+}

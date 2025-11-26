@@ -1,0 +1,35 @@
+{
+    "map": "start",
+    "mapSrc": "../assets/maps/start.png",
+    "sprite": [],
+    "items": [],
+    "exits": [
+        {
+            "direction": "east",
+            "location": "loz",
+            "x": 0.95,
+            "y": 0.25,
+            "width": 0.05,
+            "height": 0.23,
+            "strength": 0
+        },
+        {
+            "direction": "south",
+            "location": "bridge",
+            "x": 0.66,
+            "y": 0.9,
+            "width": 0.25,
+            "height": 0.1,
+            "strength": 0
+        },
+        {
+            "direction": "west",
+            "location": "gym",
+            "x": 0,
+            "y": 0.5,
+            "width": 0.05,
+            "height": 0.15,
+            "strength": 0
+        }
+    ]
+}

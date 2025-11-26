@@ -1,0 +1,44 @@
+{
+    "map": "bridge",
+    "mapSrc": "../assets/maps/bridge.png",
+    "sprite": [
+        {
+            "name": "alex",
+            "src": "../assets/sprites/alex.png",
+            "height": 0.25,
+            "width": 0.18,
+            "x": 0.03,
+            "y": 0.08
+        }
+    ],
+    "items": [
+        {
+            "name": "uranium",
+            "src": "../assets/items/uranium.png",
+            "width": 0.03,
+            "height": 0.03,
+            "x": 0.96,
+            "y": 0.96
+        }
+    ],
+    "exits": [
+        {
+            "direction": "north",
+            "location": "start",
+            "x": 0.66,
+            "y": 0,
+            "width": 0.25,
+            "height": 0.1,
+            "strength": 0
+        },
+        {
+            "direction": "south",
+            "location": "terraria",
+            "x": 0.20,
+            "y": 0.85,
+            "width": 0.25,
+            "height": 0.15,
+            "strength": 0
+        }
+    ]
+}

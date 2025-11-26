@@ -1,0 +1,35 @@
+{
+    "map": "loz",
+    "mapSrc": "../assets/maps/loz.png",
+    "sprite": [
+        {
+            "name": "elf",
+            "src": "../assets/sprites/elf.jpg",
+            "height": 0.22,
+            "width": 0.15,
+            "x": 0.72,
+            "y": 0.62
+        }
+    ],
+    "items": [],
+    "exits": [
+        {
+            "direction": "west",
+            "location": "start",
+            "x": 0,
+            "y": 0.25,
+            "width": 0.05,
+            "height": 0.23,
+            "strength": 0
+        },
+        {
+            "direction": "south",
+            "location": "backrooms",
+            "x": 0.5,
+            "y": 0.83,
+            "width": 0.066,
+            "height": 0.17,
+            "strength": 0
+        }
+    ]
+}

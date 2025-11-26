@@ -1,0 +1,20 @@
+Migrate to Google Cloud
+
+Test
+
+Create small presentation
+ - What my game is
+  - Where I got it from
+ - Services I used
+ - Demo
+ - Improvements for a "second presentation"
+  - Make own assets
+  - Add player animation
+  - Bigger map
+  - Better code separation
+  - Adoption of libraries?
+   - Take away a lot of the manual work
+  - NPC interactions
+   - Dialogue
+  - Achievements
+  - Storyline
