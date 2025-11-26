@@ -51,21 +51,22 @@ let spriteList = loadSprite(mapData.sprite);
 let itemList = loadSprite(mapData.items);
 
 
+const url = "https://storage.googleapis.com/mixed-media-assets";
+
 const playerSprite = new Image();
-playerSprite.src = `./assets/sprites/shaw.png`
+playerSprite.src = `${url}/sprites/shaw.png`
 
 let currentMap = new Image();
-currentMap.src = `/assets/maps/${playerStats.map}.png`;
+currentMap.src = `${url}/${playerStats.map}.png`;
 
 const door = new Image();
-door.src = `./assets/items/door.png`;
+door.src = `${url}/items/door.png`;
 
 const bad = new Image();
-bad.src = `./assets/items/death.png`
+bad.src = `${url}/items/death.png`
 
 const good = new Image();
-good.src = `./assets/items/win.png`;
-
+good.src = `${url}/items/win.png`;
 
 saveButton.style.height = `${0.07  * HEIGHT}px`;
 saveButton.style.width = `${0.13 * WIDTH}px`;
